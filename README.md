@@ -71,6 +71,10 @@ Claude may also **suggest** invoking it when it notices a high-stakes decision i
 - **Anti-sycophancy quality varies by model.** Tested primarily on Claude Opus / Sonnet. Smaller or older models may revert to hedging.
 - **Auto-suggest is probabilistic.** Claude won't always notice a high-stakes decision. Invoke explicitly when it matters.
 
+## Star this project
+
+Stars are the signal I use to decide whether to keep investing in a skill. If `steelman` caught a decision you would've shipped on autopilot, [star the repo](https://github.com/techiejd/claude-skill-steelman) — it's the difference between this getting more anti-sycophancy hardening and going stale.
+
 ## Contributing
 
 Found a case where Claude broke the technique — sycophantic close, hedged alternative, generic argument from training data instead of your context? Open an issue with the transcript. PRs to [SKILL.md](./SKILL.md) welcome; please include the failure case the change addresses.
